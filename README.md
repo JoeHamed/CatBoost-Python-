@@ -28,7 +28,7 @@ pip install numpy pandas matplotlib scikit-learn catboost
 - The dataset is read into a pandas DataFrame and split into features (`X`) and target (`y`).
 
 ### Splitting the Dataset
-- The dataset is split into training and testing sets using an 80-20 split.
+- The dataset is split into training and testing sets using an `80`-`20` split.
 
 ### Training CatBoost Classifier
 - The CatBoostClassifier is used to train the model on the training data. Default parameters are used for simplicity.
